@@ -1,48 +1,64 @@
-Telegram Voice to Video Bot
+🎙️ Telegram Voice to Video Bot
 
-Convert voice recordings into videos automatically using Telegram.
+Turn voice recordings into videos automatically using Telegram.
 
-Features
+✨ Features
 
-- Send a WAV voice recording to Telegram Saved Messages.
-- Automatically downloads the audio.
-- Creates a vertical MP4 video using images from a local folder.
-- Generates subtitles using Whisper AI.
-- Enhances audio quality.
-- Adds transitions and visual effects.
-- Sends the finished video back to Telegram.
+- 🎤 Send a WAV voice recording to Telegram Saved Messages
+- 🤖 Automatically detects new audio files
+- 📝 Generates subtitles using Whisper AI
+- 🔊 Enhances audio quality
+- 🖼️ Creates videos using images from your local photo library
+- 🎬 Adds transitions and visual effects
+- 📤 Sends the finished MP4 video back to Telegram
+- 💾 Saves generated videos locally
 
-How It Works
+🚀 How It Works
 
-1. Send a WAV file to Telegram Saved Messages.
-2. The bot detects the new audio file.
-3. Audio is enhanced and transcribed.
-4. Images are selected from the local photo library.
-5. A video is generated automatically.
-6. The MP4 video is sent back to Telegram.
+1. 🎤 Send a WAV file to Telegram Saved Messages
+2. 📥 The bot downloads the audio
+3. 🧠 Whisper AI transcribes the speech
+4. 🖼️ Images are selected from your photo library
+5. 🎬 A vertical video is created automatically
+6. 📝 Subtitles are added
+7. 📤 The finished MP4 is sent back to Telegram
 
-Requirements
+📋 Requirements
 
-- Python 3.10+
-- FFmpeg
-- ImageMagick
-- Telegram API credentials
-- Whisper AI model
+- 🐍 Python 3.10+
+- 🎞️ FFmpeg
+- 🖋️ ImageMagick
+- 🔑 Telegram API ID & API Hash
+- 🧠 Whisper AI Model
 
-Installation
+⚙️ Installation
 
 pip install -r requirements.txt
 
-Configure your Telegram API ID and API Hash in the script.
+Add your Telegram API credentials to the script before running.
 
-Run
+▶️ Run
 
 python Instagram-reel-editor-automation.py
 
-Output
+📁 Output
 
-Generated videos are saved locally and automatically uploaded to your Telegram Saved Messages.
+- 🎬 Generated videos are saved locally
+- 📤 Videos are automatically uploaded to Telegram Saved Messages
+- 📊 Processing history is stored in a local database
 
-License
+🛠️ Tech Stack
+
+- 🐍 Python
+- 📱 Telethon
+- 🧠 OpenAI Whisper
+- 🎞️ MoviePy
+- 🎵 Pydub
+- 🔊 NoiseReduce
+- 📷 OpenCV
+
+📜 License
 
 MIT License
+
+⭐ If you find this project useful, consider giving it a star.
