@@ -40,8 +40,8 @@ from telethon.tl.types import MessageMediaDocument
 # ==========================================
 # CONFIGURATION & CONSTANTS
 # ==========================================
-API_ID = 34416633
-API_HASH = 'b2aed0b8baa8e30c234d8e46c7d05b83'
+API_ID =      #ENTER YOUR API ID 
+API_HASH =    #ENTER YOUR API HASH
 
 IMAGE_LIBRARY_DIR = r"C:\Shoby deathless laptop folder\Instagram-tutor- page-automation- photos-library"
 READY_TO_POST_DIR = r"C:\Shoby deathless laptop folder\Ready-To-Post"
